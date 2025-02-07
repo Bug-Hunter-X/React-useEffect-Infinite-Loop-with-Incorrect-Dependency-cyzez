@@ -1,0 +1,3 @@
+# React useEffect Infinite Loop Bug
+
+This repository demonstrates a common error in React's `useEffect` hook: adding the state setter function to the dependency array, leading to an infinite loop.  The `bug.js` file contains the erroneous code.  The correct implementation is shown in `bugSolution.js`.  This bug can be difficult to spot as it doesn't always result in obvious error messages, often manifesting as performance issues or unexpected behavior.
